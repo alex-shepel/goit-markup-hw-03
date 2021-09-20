@@ -1,0 +1,47 @@
+.section-title {
+  color: var(--font-bold-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hero {
+  background-color: var(--bg-black-color);
+}
+
+.hero-title {
+  color: var(--font-inversed-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.features-heading {
+  color: var(--font-bold-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.team {
+  background-color: var(--bg-gray-color);
+}
+
+.member-name {
+  color: var(--font-bold-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.member-role {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}

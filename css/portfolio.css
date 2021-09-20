@@ -1,0 +1,12 @@
+.portfolio-content-name {
+  color: var(--font-bold-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-content-type {
+  font-size: 16px;
+  line-height: 1.9;
+}
