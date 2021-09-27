@@ -1,21 +1,26 @@
 /* custom CSS properties */
 
 :root {
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
 
-  --bg-white-color: #FFFFFF;
-  --bg-black-color: #2F303A;
-  --bg-gray-color: #F5F4FA;
+  --bg-white-color: #ffffff;
+  --bg-black-color: #2f303a;
+  --bg-gray-color: #f5f4fa;
 
   --font-bold-color: #212121;
   --font-primary-color: #757575;
-  --font-inversed-color: #FFFFFF;
+  --font-inversed-color: #ffffff;
   --font-trasnparent-color: rgba(255, 255, 255, 0.6);
 }
 
 /* typographical preset */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--font-bold-color);
 }
 
