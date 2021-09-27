@@ -98,27 +98,6 @@ footer {
   text-decoration: none;
 }
 
-/* buttons */
-
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
-
-.button.primary,
-.button.secondary:hover,
-.button.secondary:focus {
-  color: var(--font-inversed-color);
-  background-color: var(--accent-color);
-}
-
-.button.secondary,
-.button.primary:hover,
-.button.primary:focus {
-  color: var(--font-bold-color);
-  background-color: var(--bg-gray-color);
-}
-
 /* lists */
 
 .list {

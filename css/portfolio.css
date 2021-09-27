@@ -1,3 +1,5 @@
+/* portfolio content */
+
 .portfolio-content-name {
   color: var(--font-bold-color);
   font-weight: 700;
@@ -9,4 +11,22 @@
 .portfolio-content-type {
   font-size: 16px;
   line-height: 1.9;
+}
+
+/* buttons */
+
+.button {
+  color: var(--font-bold-color);
+  background-color: var(--bg-gray-color);
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--font-inversed-color);
+  background-color: var(--accent-color);
 }

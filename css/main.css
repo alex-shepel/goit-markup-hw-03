@@ -1,3 +1,5 @@
+/* sections common */
+
 .section-title {
   color: var(--font-bold-color);
   font-weight: 700;
@@ -5,6 +7,8 @@
   line-height: 1.2;
   text-align: center;
 }
+
+/* hero section */
 
 .hero {
   background-color: var(--bg-black-color);
@@ -20,6 +24,8 @@
   text-transform: uppercase;
 }
 
+/* features section */
+
 .features-heading {
   color: var(--font-bold-color);
   font-weight: 700;
@@ -27,6 +33,8 @@
   line-height: 1.2;
   text-transform: uppercase;
 }
+
+/* team section */
 
 .team {
   background-color: var(--bg-gray-color);
@@ -44,4 +52,23 @@
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+}
+
+/* button */
+
+.button {
+  cursor: pointer;
+
+  color: var(--font-inversed-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--font-bold-color);
+  background-color: var(--bg-gray-color);
 }
