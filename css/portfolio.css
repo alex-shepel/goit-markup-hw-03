@@ -8,11 +8,32 @@
 .content-filter {
 	margin-top: 0;
 	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+
 	text-align: center;
+}
+
+.content-filter .item + .item {
+	margin-left: 8px;
 }
 
 .content-table {
 	margin-top: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content-table .item {
+	outline: 1px solid var(--card-border-color);
+}
+
+.content-table .item:not(:nth-child(3n)) {
+	margin-right: 30px;
+}
+
+.content-table .item:not(:nth-last-child(-n + 3)) {
+	margin-bottom: 30px;
 }
 
 .content-info {
