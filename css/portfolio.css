@@ -5,6 +5,10 @@
 	padding-bottom: 94px;
 }
 
+.content-title {
+	text-align: center;
+}
+
 .content-filter {
 	margin-top: 0;
 	margin-bottom: 50px;
