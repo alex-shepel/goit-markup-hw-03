@@ -40,15 +40,15 @@
 .features-list,
 .job-list {
 	display: flex;
+	gap: 30px;
 }
 
-.features-list .item {
-	flex-basis: 270px;
+.features-list > .item {
+	flex-basis: calc(100% / 4 - 30px);
 }
 
-.features-list .item + .item,
-.job-list .item + .item {
-	margin-left: 30px;
+.job-list > .item {
+	flex-basis: calc(100% / 3 - 30px);
 }
 
 /* features section */
@@ -79,18 +79,13 @@
 
 .team-list {
 	display: flex;
+	gap: 30px;
 }
 
-.team-list .item {
+.team-list > .item {
+	flex-basis: calc(100% / 4 - 30px);
+
 	background-color: var(--bg-white-color);
-}
-
-.team-list .item + .item {
-	margin-left: 30px;
-}
-
-.member-photo {
-	display: block;
 }
 
 .member-info {
