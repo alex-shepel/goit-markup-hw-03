@@ -13,6 +13,24 @@
 	--font-trasnparent-color: rgba(255, 255, 255, 0.6);
 }
 
+/* utilities */
+
+.list {
+	margin-bottom: 0;
+	padding-left: 0;
+
+	list-style: none;
+}
+
+.no-margin {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.image {
+	display: block;
+}
+
 /* typographical preset */
 
 h1,
@@ -57,6 +75,8 @@ footer {
 /* logo */
 
 .logo {
+	margin-right: 93px;
+
 	color: var(--font-bold-color);
 	font-family: Raleway, sans-serif;
 	font-weight: 700;
@@ -70,6 +90,32 @@ footer {
 }
 
 /* header */
+
+.page-header {
+	padding-top: 24px;
+	padding-bottom: 25px;
+}
+
+.page-header .container {
+	display: flex;
+	align-items: center;
+}
+
+.site-nav {
+	display: flex;
+	align-items: center;
+}
+
+.main-nav {
+	display: flex;
+	margin-top: 0;
+}
+
+.header-contacts {
+	display: flex;
+	margin-top: 0;
+	margin-left: auto;
+}
 
 .page-header .logo {
 	color: var(--font-bold-color);
@@ -86,6 +132,11 @@ footer {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	text-decoration: none;
+}
+
+.site-nav .main-nav .item + .item,
+.header-contacts .item + .item {
+	margin-left: 50px;
 }
 
 .list.header-contacts {
@@ -138,15 +189,6 @@ p.footer-contact {
 	text-decoration: none;
 }
 
-/* lists */
-
-.list {
-	margin-bottom: 0;
-	padding-left: 0;
-
-	list-style: none;
-}
-
 /* buttons */
 
 .btn {
@@ -158,17 +200,4 @@ p.footer-contact {
 
 	font-family: inherit;
 	text-align: center;
-}
-
-/* margin reset */
-
-.no-margin {
-	margin-top: 0;
-	margin-bottom: 0;
-}
-
-/* images */
-
-.image {
-	display: block;
 }
