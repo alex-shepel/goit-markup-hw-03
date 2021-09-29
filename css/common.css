@@ -7,7 +7,7 @@
 	--bg-black-color: #2f303a;
 	--bg-gray-color: #f5f4fa;
 
-	--card-border-color: #eeeeee;
+	--border-color: #eeeeee;
 
 	--font-bold-color: #212121;
 	--font-primary-color: #757575;
@@ -97,6 +97,8 @@ footer {
 .page-header {
 	padding-top: 24px;
 	padding-bottom: 25px;
+
+	border-bottom: 1px solid var(--border-color);
 }
 
 .page-header .container {
